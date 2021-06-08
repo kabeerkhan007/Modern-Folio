@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  
+}
+.fa-cogs {
+  font-size: 32px;
+  display: block;
+  background: -webkit-linear-gradient(#a445b2, #fa4299);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-laptop-code {
+  font-size: 32px;
+  display: block;
+  background: -webkit-linear-gradient(#a445b2, #fa4299);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-pencil-paintbrush {
+  font-size: 32px;
+  display: block;
+  background: -webkit-linear-gradient(#a445b2, #fa4299);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.git
+{
+  text-decoration: none;
+  color: #fff;
+}
+.git:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+@media (max-width: 1000px) {
+  .my_skills {
+    height: auto !important;
+  }
+}
+.git
+{
+  text-decoration: none;
+  color: #fff;
+}
+.git:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.project-card {
+  transition: 0.5s ease-out;
+}
+
+.project-card:hover {
+  background-position: top;
+}
+
+.wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.wrapper .card {
+  background: #ffffff;
+  width: calc(33% - 20px);
+  height: 300px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .card .circle {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.card .circle .box,
+.card .circle .box span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.card .circle .box {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -50%) scale(0.8);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card .circle:hover .box {
+  -webkit-transform: translate(-50%, -50%) scale(0.91);
+  transform: translate(-50%, -50%) scale(0.91);
+}
+
+.card .circle .box span,
+.wrapper .card .text {
+  background: -webkit-linear-gradient(left, #0d6efd, #0d6efd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circle .box span {
+  font-size: 38px;
+  font-family: sans-serif;
+  font-weight: 600;
+  -webkit-transform: translate(-45%, -45%);
+  transform: translate(-45%, -45%);
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.card .circle:hover .box span {
+  -webkit-transform: translate(-45%, -45%) scale(1.09);
+  transform: translate(-45%, -45%) scale(1.09);
+}
+
+.card .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 753px) {
+  .wrapper {
+    max-width: 700px;
+  }
+  .wrapper .card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 505px) {
+  .wrapper {
+    max-width: 500px;
+  }
+  .wrapper .card {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
